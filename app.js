@@ -47,3 +47,9 @@ function multiplyArray(arr) {
 }
 
 console.log(multiplyArray([5, 10, 2]));
+// 6.
+const numArgs = function (...args) {
+    return args.length;
+};
+
+console.log(numArgs('test', true, 5));
