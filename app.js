@@ -20,3 +20,10 @@ const maxOfThree = function (x, y, z) {
 };
 
 console.log(maxOfThree(5, 10, 1));
+// 3.
+function isCharAVowel(s) {
+    s = s.toLowerCase();
+    return ('aeiouy'.indexOf(s) > -1);
+}
+
+console.log(isCharAVowel('b'));
