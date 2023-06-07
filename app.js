@@ -27,3 +27,13 @@ function isCharAVowel(s) {
 }
 
 console.log(isCharAVowel('b'));
+// 4.
+const sumArray = function (arr) {
+    let sum = 0;
+    arr.forEach(function (n) {
+        sum += n;
+    });
+    return sum;
+};
+
+console.log(sumArray([5, 10, 1]));
