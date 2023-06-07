@@ -70,3 +70,11 @@ const longestStringInArray = function (arr) {
 };
 
 console.log(longestStringInArray(['say', 'hello', 'in', 'the', 'morning']));
+// 9.
+function stringsLongerThan(arr, len) {
+    return arr.filter(function (s) {
+        return (s.length > len);
+    });
+};
+
+console.log(stringsLongerThan(['say', 'hello', 'in', 'the', 'morning'], 3));
