@@ -53,3 +53,10 @@ const numArgs = function (...args) {
 };
 
 console.log(numArgs('test', true, 5));
+// 7.
+function reverseString(s) {
+    let arr = s.split('');
+    return arr.reverse().join('');
+}
+
+console.log(reverseString('rockstar'));
