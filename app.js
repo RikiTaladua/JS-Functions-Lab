@@ -60,3 +60,13 @@ function reverseString(s) {
 }
 
 console.log(reverseString('rockstar'));
+// 8.
+const longestStringInArray = function (arr) {
+    let longest = 0;
+    arr.forEach(function (s) {
+        if (s.length > longest) longest = s.length;
+    });
+    return longest;
+};
+
+console.log(longestStringInArray(['say', 'hello', 'in', 'the', 'morning']));
