@@ -37,3 +37,13 @@ const sumArray = function (arr) {
 };
 
 console.log(sumArray([5, 10, 1]));
+// 5.
+function multiplyArray(arr) {
+    let product = 1;
+    for (let i = 0; i < arr.length; i++) {
+        product *= arr[i];
+    }
+    return product;
+}
+
+console.log(multiplyArray([5, 10, 2]));
